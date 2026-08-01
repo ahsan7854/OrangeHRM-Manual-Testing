@@ -1,0 +1,31 @@
+Scenario ID	Module	Test Scenario	Priority	Type	Status	Remarks
+TS-001	Login	Verify login page loads successfully	High	Functional	Not Executed	
+TS-002	Login	Verify successful login with valid credentials	High	Positive	Not Executed	
+TS-003	Login	Verify login with invalid username	High	Negative	Not Executed	
+TS-004	Login	Verify login with invalid password	High	Negative	Not Executed	
+TS-005	Login	Verify login with both invalid username and password	High	Negative	Not Executed	
+TS-006	Login	Verify login with empty username	High	Negative	Not Executed	
+TS-007	Login	Verify login with empty password	High	Negative	Not Executed	
+TS-008	Login	Verify login with both fields empty	High	Negative	Not Executed	
+TS-009	Login	Verify password field masks entered characters	Medium	UI	Not Executed	
+TS-010	Login	Verify Login button is clickable	High	Functional	Not Executed	
+TS-011	Login	Verify Forgot Password link navigation	Medium	Functional	Not Executed	
+TS-012	Login	Verify username field accepts valid input	Medium	Functional	Not Executed	
+TS-013	Login	Verify password field accepts valid input	Medium	Functional	Not Executed	
+TS-014	Login	Verify leading/trailing spaces handling	Medium	Validation	Not Executed	
+TS-015	Login	Verify special characters in username	Medium	Negative	Not Executed	
+TS-016	Login	Verify SQL Injection attempt is rejected	High	Security	Not Executed	
+TS-017	Login	Verify XSS input is not executed	High	Security	Not Executed	
+TS-018	Login	Verify login page refresh behavior	Low	Functional	Not Executed	
+TS-019	Login	Verify browser Back button after login	Medium	Functional	Not Executed	
+TS-020	Login	Verify direct Dashboard URL without login	High	Security	Not Executed	
+TS-021	Login	Verify session timeout behavior	Medium	Security	Not Executed	
+TS-022	Login	Verify Logout redirects to Login page	High	Functional	Not Executed	
+TS-023	Login	Verify login page UI alignment	Low	UI	Not Executed	
+TS-024	Login	Verify error message for invalid credentials	High	Validation	Not Executed	
+TS-025	Login	Verify login on Chrome browser	Medium	Compatibility	Not Executed	
+TS-026	Login	Verify login on Microsoft Edge browser	Medium	Compatibility	Not Executed	
+TS-027	Login	Verify login page responsiveness on different window sizes	Low	UI	Not Executed	
+TS-028	Login	Verify page loading performance	Low	Performance	Not Executed	
+TS-029	Login	Perform exploratory testing of Login page	Medium	Exploratory	Not Executed	
+TS-030	Login	Verify all login-related validations work together	High	Regression	Not Executed	
